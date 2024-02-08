@@ -1,0 +1,68 @@
+
+/* LECTURE ONE:
+ a.What is CSS(Cascading StyleSheet)?
+ b. How to apply css to html
+    i. Inline styling
+    ii. Internal Styling
+    iii. External Styling
+c. CSS Declaration block
+    selector{
+        property1:value1;
+        property2:value2;
+        propertyn:valuen;
+    } */
+
+/*LECTURE TWO:
+    a. How to select HTML element using css
+        i.Selecting or targetting by tagname
+        ii. Selecting or targetting by id
+        iii. Selecting or targetting by class
+    b. How to apply colors
+        i. By using color name
+        ii. using rgb color code
+        iii. Using Hexadecimal color code
+        iv. Using alphanumeric color code
+    c. CSS Box model
+        CSS BOX MODEL PROPERTIES
+        1. Height
+        2. Width
+        3. Padding
+        4. Margin
+        5. Border
+        6. Border-radius
+*/
+
+/*Targetting by tagname */
+span{
+    background-color: purple;
+}
+
+/*Targetting by id */
+#my_span{
+    background-color: green;
+}
+
+/*Targeting by class */
+.my_para{
+    width: 400px;
+    height: 200px;
+}
+.my_para1{
+    border: 2px solid red;
+}
+
+/* Applying color using rgb color code */
+h2{
+    background-color: rgb(200, 100, 200);
+}
+
+/*Applying color using hexadecimal color */
+h3{
+    background-color: #ff0000;
+}
+
+/*Applying color using rgba() color code */
+div{
+    background-color: rgba(255, 0, 0, 0.6);
+    color: #fff;
+}

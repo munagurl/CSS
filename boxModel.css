@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+div{
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+    padding: 20px;/* Applying padding using short hand */
+    margin: 20px; /* Applying margin using short hand */
+    border: 10px solid green; /* Applying border using short hand */
+    border-radius: 7px; /* Applying border-radius using short hand */
+}
+
+h1{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+   padding-left: 20px; /* Applying padding using full hand */
+   padding-top: 50px; /* Applying padding using full hand */
+   padding-bottom: 100px;/* Applying padding using full hand */
+   margin-top: 100px;/* Applying margin using full hand */
+   border-top: 3px dashed green; /* Applying border using full hand */
+   border-bottom-right-radius: 50px; /* Applying border-radus using full hand */
+}
