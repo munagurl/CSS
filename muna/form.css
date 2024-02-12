@@ -1,0 +1,92 @@
+
+/*
+    At the end of this we will cover the following:
+    1. Learn about global reset
+    2. Inline vs Block level element
+    3. Learn about pseudo elements eg after pseudo element
+    4. Learn about pseudo state eg focus, hover
+    5. Learn how to apply transition animation
+    6. How to centralize a block level element
+    7. Learn how to put the box model concept into use
+
+*/
+
+/* Global reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.form-container{
+    background-color: blue;
+    padding: 30px 50px;
+    height: 100vh;
+}
+
+.registration-form{
+    background-color: white;
+    width: 500px;
+    padding: 30px;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    /*Using margin to centralize a block level element */
+    margin:  0 auto;
+    margin-top: 100px;
+}
+h1{
+    margin-bottom: 20px;
+}
+
+/* Using pseudo element */
+h1::after{
+    content: "";
+    height: 2px;
+    width: 35px;
+    background-color: blue;
+    display: block;
+}
+.form-group{
+    margin-bottom: 12px;
+}
+
+input{
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition:  all .3s;
+}
+
+input:focus{
+    outline: none;
+    border-color: blue;
+}
+
+#check-box-input{
+    width: auto;
+}
+
+button{
+    background-color: blue;
+    width: 100%;
+    padding: 12px 0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background .3s ease-in;
+}
+
+button:hover{
+    background-color: rgb(2, 2, 75);
+}
+
+.text-center{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}

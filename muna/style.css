@@ -1,0 +1,38 @@
+div{
+    height: 200px; 
+    width: 300px;
+    padding: 20px 40px 60px 90px;
+    margin: 10px;
+}
+
+#myDiv{
+    background-color:red ;
+}
+
+
+#myDiv2{
+    background-color: blue;
+    border: 10PX solid green;
+}
+
+#my_div3{
+    background-color: yellow;
+    border: 10px dotted green;
+}
+
+#myDiv4{
+    background-color: purple;
+    border-right: 10px dashed blue;
+}
+
+#myDiv5{
+    background-color: yellowgreen;
+    border-radius: 10px;
+}
+
+#myDiv6{
+    background-color: lime;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
