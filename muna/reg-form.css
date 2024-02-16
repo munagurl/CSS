@@ -1,0 +1,72 @@
+*{
+     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.form-container{
+    background-color: blue;
+    height: 100vh;
+    padding: 10px 50px;
+}
+.registration-form{
+    background-color: white;
+    width: 450px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 15px;
+}
+
+.form-group{
+    margin-bottom: 12px;
+}
+h1{
+   padding:10px ;
+    margin-bottom: 10px;
+}
+h1::after{
+    content: "";
+    background-color: blue;
+    display: block;
+    height: 2px;
+    width: 35px;
+
+}
+button{
+    background-color: blue;
+    padding: 12px 0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+}
+button:hover{
+    background-color: rgb(6, 6, 109);
+    cursor: pointer;
+}
+input{
+    padding:12px 10px;
+    border-radius: 5px ;
+    border: 1px solid #ccc;
+    width: 100%; 
+    tra
+}
+
+ input:focus{
+    outline: none;
+    border-color: blue;
+   
+
+ }
+  
+
+
+#check-input{
+    width: auto;
+}
+a{
+    text-decoration: none;
+}
+

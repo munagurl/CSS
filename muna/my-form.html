@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="my form.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="my form.css">
 
 </head>
 <body>
@@ -12,30 +12,34 @@
 <div class="form-container">
     <form method="post" class="registration-form">
 
-        <button >Sing up</button>
+        <div>  
+            <button class="btn btn-green">Sing up</button>
 
-        <button id="my_sign">Log In</button>
-<h1>Sing up for Free</h1>
-       <div>
+            <button class="btn btn-grey">Log In</button>
+
+        </div>
+        <h1>Sing up for Free</h1>
+
+       <div class="form-group">
         <input type="text" placeholder="First Name" required>
        </div>
 
 
-       <div>
+       <div class="form-group">
         <input type="text" placeholder="Last Name" required>
        </div>
 
 
-        <div class="form group">
+        <div class="form-group ">
             <input type="email" placeholder="Email Address" required>
         </div>
         
-        <div>
+        <div class="form-group">
             <input type="password" placeholder="Set A Password"required>
         </div>
         
         
-        <button>GET STARTED</button>
+        <button class="signupBtn">GET STARTED</button>
      </form>
 </body>
 </html>

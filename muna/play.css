@@ -1,0 +1,27 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+.form-container{
+    background-color: black;
+    padding: 30px 50px;
+    height: 100vh;  
+}
+
+.registration-form{
+    background-color: aqua;
+    padding: 30px;
+    width: 50%;
+    margin-top: 100px;
+}
+
+h2{
+    padding: 20px;
+    color: white;
+}
+
+div{
+    padding: 10px;
+
+}
